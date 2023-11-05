@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <nav id="create-post-nav">
+       <h1 id="create-post"> Create Post </h1>
+           <a href="index.html">Back</a>
+       </nav>
+   </div>
+    <form id="create-post-form" action="">
+        <div id="error-message"></div>
+
+        <label for="title-input">Title</label>
+        <input type="text" name="title" id="title-input">
+
+        <label for="author-input">Author</label>
+        <input type="text" name="author" id="author-input">
+
+        <label for="post-textarea">Content</label>
+        <textarea name="content" id="post-textarea" cols="30" rows="10"></textarea>
+
+        <label for="tags-select">Select tags</label>
+        <label><input type="checkbox" name="tags" value="Anime"> Anime</label>
+        <label><input type="checkbox" name="tags" value="Gaming"> Gaming</label>
+        <label><input type="checkbox" name="tags" value="Travel"> Travel</label>
+        <label><input type="checkbox" name="tags" value="Cleaning"> Cleaning</label>
+        <label><input type="checkbox" name="tags" value="Sports"> Sports</label>
+        <label><input type="checkbox" name="tags" value="Im-Pro"> Im Pro</label>
+        <label><input type="checkbox" name="tags" value="Food"> Food</label>
+        <label><input type="checkbox" name="tags" value="Economics"> Economics</label>
+        <div id="selected-tags"></div>
+
+        <input type="submit" value="Post">
+    </form>
+
+    <script src="js/create-post.js"></script>
+</body>
+</html>

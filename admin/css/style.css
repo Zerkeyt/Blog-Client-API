@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+/* CREATE-POST STYLING */
+#create-post-nav, #update-post-nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+h1#manage-post{
+    margin-right: 25%;
+}
+
+h1#create-post {
+    margin-right: 26%;
+}
+#create-post-nav, #update-post-nav {
+    margin: 25px;
+}
+
+#create-post-nav a, #update-post-nav a {
+    box-sizing: content-box;
+    font-size: large;
+}
+
+
+#create-post-form, #update-post-form {
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: rgba(211, 211, 211, 0.151);
+}
+
+#post-textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#error-message {
+    margin-bottom: 10px;
+}
+
+#error-message div {
+    background-color: #c25a5f;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(10, 0, 155);
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ADMIN INDEX */
+
+body {
+    margin: 0;
+}
+
+#navigation {
+    height: 50px;
+    box-shadow: 50px;
+    padding-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav a {
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 186, 248);
+    padding: 10px;
+     margin: 10px 10%;
+
+ }
+ a.del-btn {
+    color: red;
+}
+nav a:hover {
+    border-radius: 10px;
+    box-shadow: rgba(236, 232, 232, 0.4) 0px 2px 4px, rgba(236, 232, 232, 0.3) 0px 7px 13px -3px, rgba(236, 232, 232, 0.2) 0px -3px 0px inset;
+}
+
+table {
+    width: 100%;
+
+    margin-bottom: 50px;
+}
+
+th {
+    background-color: #45a049;
+    padding: 10px 8px;
+    color: blanchedalmond;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #bafaf5;
+    border-radius: 5px solid ;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover td {
+    background-color: rgba(16, 113, 192, 0.4);
+}
+
+tr td a {
+
+    padding: 10px;
+    font-weight: bold;
+    color:#24ab24;
+}
+
+tr td a:hover {
+    background-color: aliceblue;
+}
+
+td {
+    padding: 5px;
+    border-radius: 50px;
+}
+

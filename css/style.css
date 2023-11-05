@@ -1,0 +1,124 @@
+:root {
+    --main-padding: 40px; 
+    --linkwidth: 100px;
+    background-color: bisque;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: beige;
+}
+
+nav {
+    text-transform: uppercase;
+    width: 63%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--headlines);
+    padding-top: 20px;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+#active-link {
+    color: var(--accent-color);
+}
+
+#header-link {
+    text-decoration: unset;
+    color: unset;
+}
+
+main {
+    margin: 20px auto;
+
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 7%;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 35%;
+}
+
+p {
+    display: inline;
+}
+#adminLink {
+    margin-left: 89.7%;
+    text-align: center;
+    display: block; 
+    font-size: 21px;
+    font-weight: bold;
+    color: blue;
+    border-radius: 20px;
+    background-color: #FFEB3B;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100px;
+    position: absolute;
+ }
+
+ .pic-holder {
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-size: contain;
+    margin-bottom: 50px;
+}
+
+.img-blog {
+    margin-bottom: 20px;
+}
+
+#post-wrapper {
+    background: aliceblue;
+    background-color: beige;
+    width: 50%;
+    padding: 50px;
+    margin: 100px auto;
+    border: 5px solid black;
+}
+
+#post-header {
+    font-family: var(--headlines);
+    font-size: 30px;
+    padding: unset;
+    margin: unset;
+    margin-top: 20px;
+}
+
+#post-content, #content {
+    display: block;
+}
+
+#pic-div {
+    text-align: center;
+}
+
+.img-post {
+    margin-bottom: 30px;
+}
+
+
+#author-text {
+    font-size: 20px;
+}
